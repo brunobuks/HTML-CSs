@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: cursive, sans-serif;
+            background-color: rgb(156, 51, 255);
+        }
+        header {
+            background-color: rgb(100, 100, 251);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.263);
+        }
+        h1 {
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.263);
+        }
+        nav {
+            background-color:antiquewhite;
+            padding: 3px;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.263);
+        }
+        nav > a {
+            color: rgb(170, 0, 0);
+            text-decoration:line-through;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        main {
+            background-color: rgb(100, 100, 251);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.263);
+        }
+        article {
+            background-color: rgb(100, 100, 251);
+        }
+        article > aside {
+            background-color: rgb(100, 100, 251);
+        }
+        footer {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.263);
+        }
+        footer > h3 {
+            margin: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="subjects">
+
+        </section>
+        <section id="news">
+            <article>
+                <h2>News About Nothing</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea dolor temporibus distinctio eius consequuntur blanditiis laboriosam, libero ratione, neque, recusandae esse beatae corrupti quo debitis inventore provident mollitia soluta explicabo.</p>
+                <aside>
+                    <p>Article written by me Bruno B Nunes</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <h3>
+            Powering by Me
+        </h3>
+
+    </footer>
+    <div id="ball"></div>
+</body>
+</html>
