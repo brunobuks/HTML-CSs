@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chalenger 07 - Sheet</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            background-color: aliceblue;
+            width: 450px;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 10px;
+        }
+
+        th {
+            background-color: rgb(161, 94, 254);
+        }
+
+        #fild {
+            background-color: aliceblue;
+        }
+
+        #fild2 {
+            background-color: rgb(161, 94, 254);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">Fild</th>
+                <th rowspan="2" scope="col">Subjects</th>
+                <th colspan="2" scope="colgroup" >Grades</th>
+                <th rowspan="2" scope="col">Avarege</th>
+            </tr>
+            <tr>
+                <th scope="col">Grade 1</th>
+                <th scope="col">Grade 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th id='fild' rowspan="3" scope="rowgroup">Exacts</th>
+                <td>Math</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biology</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="col">Exact Avarege</th>
+                <td id="fild2">0.0</td>
+            </tr>
+            <tr>
+                <th id="fild" rowspan="2" scope="rowgroup">Human</th>
+                <td>History</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geography</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="col">Exact Human</th>
+                <td id="fild2">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
