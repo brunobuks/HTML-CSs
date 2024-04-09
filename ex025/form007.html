@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Form Exemple</h1>
+    <form action="sign-up.php" method="get" autocomplete="off">
+        <p>
+            <label for="state">State:</label>
+            <select name="state" id="state">
+            <optgroup label="Group 1">
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+            </optgroup>
+            <optgroup label="Group 2">
+                <option value="MA">Maranhão</option>
+                <option value="PE">Pernambuco</option>
+                <option value="RN">Rio Grande do Sul</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="job">Jobs: </label>
+            <input type="text" name="job" id="job" list="joblist">
+            <datalist id="joblist">
+                <option>Admin</option>
+                <option>Counter</option>
+                <option>Developer</option>
+                <option>Teacher</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="img">Message: </label><br>
+            <textarea name="img" id="img" cols="30" rows="10" placeholder="text something..."></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </p>
+    </form>
+</body>
+</html>

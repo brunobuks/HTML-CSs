@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Test</h1>
+    <form action="sign-up.php" method="get">
+        <p>
+            <label for="year">When you were born? </label>
+            <input type="number" name="year" id="year" min="1900" max="2024" oninput="mathage()">
+        </p>
+        <p>
+            <label for="age">What is your age?</label>
+            <output id="age">0 </output>
+        </p>
+        <p>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </p>
+    </form>
+
+    <script>
+        function mathage() {
+            let current = new Date().getFullYear()
+            age.innerHTML = Number(current) - Number(year.value)
+        }
+    </script>
+</body>
+</html>
