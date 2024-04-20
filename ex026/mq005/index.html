@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web SIte</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <h1>My WebSite</h1>
+        <span id="icon" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="item">
+            <ul>
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+                <li><a href="#">Option 3</a></li>
+                <li><a href="#">Option 4</a></li>
+                <li><a href="#">Option 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testin Media Query</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reprehenderit facere ipsa eligendi distinctio atque neque fugiat, mollitia blanditiis, eum voluptatem delectus enim magnam cumque officiis possimus, hic debitis ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quasi animi ut dignissimos exercitationem ipsam placeat amet blanditiis provident? Voluptates obcaecati, vel vitae optio excepturi aut nam mollitia. In, suscipit?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero ipsa molestias cumque obcaecati, similique magnam sit repellat sunt ipsam nesciunt laborum eveniet maxime et assumenda fugiat, quis quisquam. Beatae, eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos velit magni quos, soluta sequi sed labore vitae suscipit. Delectus natus obcaecati soluta officiis nobis adipisci laborum et perspiciatis in a!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deleniti adipisci, accusamus magnam voluptates cum quisquam neque aspernatur quod iusto aliquid explicabo dolor minima excepturi? Quisquam dicta accusantium vitae quas?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (item.style.display == 'block') {
+                item.style.display = 'none'
+            } else {
+                item.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
